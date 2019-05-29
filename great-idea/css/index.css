@@ -102,8 +102,7 @@ h2 {
 
 /******* Classes ********/
 
-.lg-header {
-	display: inline-block;
+.demand-container {
 	margin: 20px 20px;
 	width: 50%;
 }
@@ -133,12 +132,13 @@ h2 {
 /* Add transitions to hover */
 
 .circle-pic {
-	display: inline-block;
 	margin: 20px 20px;
 
 }
 
 .section1 {
+	display: flex;
+	flex-direction: row;
 	margin: 50px 0px;
 }
 
@@ -169,7 +169,7 @@ h2 {
 	margin-right: 25px;
 	display: inline-block;
 }
-
+y
 .product-container {
 	width: 30%;
 	display: inline-block;
