@@ -212,8 +212,28 @@ h2 {
 	padding-right: 500px;
 }
 
+
+/*This is where my services CSS starts  */
 .services-header-img {
 	width: 100%;
 }
 
+.services-h2 {
+	font-size: 35px;
+}
+
+.services-section2 {
+	margin: 20px 0px;
+	padding: 45px 0px;
+	display:flex;
+	border-top: 1px solid black;
+	border-bottom: 3px solid black;
+}
+
+.services-section2 div {
+	border: 1px solid black;
+	height: 220px;
+	width: 285px;
+	margin: 20px 20px;
+}
 /* Add Media Query for Mobile Devices */
