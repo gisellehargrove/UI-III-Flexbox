@@ -65,7 +65,7 @@ h1, h2, h3, h4, h5 {
 
 /******** Element Styles ********/
 body {
-	padding: 50px;
+	padding: 30px 50px;
 }
 
 header {
@@ -157,13 +157,11 @@ h2 {
 
 .features-container {
 	width: 45%;
-	display: inline-block;
 }
 
 .about-container {
 	padding-left: 50px;
 	width: 45%;
-	display: inline-block;
 }
 
 .middle-img {
