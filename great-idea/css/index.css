@@ -130,6 +130,8 @@ h2 {
 	font-style: italic;
 }
 
+/* Add transitions to hover */
+
 .circle-pic {
 	display: inline-block;
 	margin: 20px 20px;
@@ -201,3 +203,5 @@ h2 {
 	padding-left: 545px;
 	padding-right: 500px;
 }
+
+/* Add Media Query */
