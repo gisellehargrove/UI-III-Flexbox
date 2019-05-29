@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -62,5 +62,144 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+
+
+/* Your code starts here */
+body {
+	padding: 50px;
+}
+
+header {
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+
+header a {
+	color: grey;
+	text-decoration: none;
+	margin: 20px 60px;
+
+}
+
+header a:hover {
+	font-style: italic;
+	color: red;
+	font-size: 30px;
+}
+
+header img {
+	vertical-align: middle;
+
+}
+
+h1 {
+	font-size: 75px;
+	margin-left: 25%;
+}
+
+.lg-header {
+	display: inline-block;
+	margin: 20px 20px;
+	width: 50%;
+}
+
+.on-header {
+	padding-left: 100px;
+}
+
+.demand-header {
+	padding-left: 33px;
+	padding-bottom: 20px;
+}
+
+.btn {
+	border: 1px solid black;
+	padding: 5px 30px;
+	text-decoration: none;
+	color: black;
+	margin-left: 35%;
+}
+
+.btn:hover {
+	color: blue;
+	font-style: italic;
+}
+
+.circle-pic {
+	display: inline-block;
+	margin: 20px 20px;
+
+}
+
+.section1 {
+	margin: 50px 0px;
+}
+
+.section2 {
+	padding: 50px 0px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+.features-container {
+	width: 45%;
+	display: inline-block;
+}
+
+.about-container {
+	padding-left: 50px;
+	width: 45%;
+	display: inline-block;
+}
+
+.middle-img {
+	width: 100%;
+	margin: 50px 0px;
+}
+
+.services-container {
+	width: 30%;
+	margin-right: 25px;
+	display: inline-block;
+}
+
+.product-container {
+	width: 30%;
+	display: inline-block;
+}
+
+.vision-container {
+	width: 30%;
+	margin-left: 40px;
+	display: inline-block;
+}
+
+h2 {
+	margin: 50px 0px 30px 0px;
+}
+
+.footer-street {
+	width: 30%;
+}
+
+.footer-city {
+	width: 30%;
+}
+
+.footer-phone {
+	width: 30%;
+	margin: 25px 0px;
+}
+
+.footer-email {
+	width: 30%;
+}
+
+.copyright-container {
+	margin: 70px 0px 85px 0px;
+	padding-left: 545px;
+	padding-right: 500px;
+}
+
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
