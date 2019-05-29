@@ -63,8 +63,7 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-
-/* Your code starts here */
+/******** Element Styles ********/
 body {
 	padding: 50px;
 }
@@ -101,7 +100,7 @@ h2 {
 	margin: 50px 0px 30px 0px;
 }
 
-/* Classes */
+/******* Classes ********/
 
 .lg-header {
 	display: inline-block;
