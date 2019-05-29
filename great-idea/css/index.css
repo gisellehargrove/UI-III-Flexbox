@@ -70,15 +70,16 @@ body {
 }
 
 header {
+	display: flex;
+	flex-direction: row;
 	margin-top: 30px;
 	margin-bottom: 50px;
 }
 
 header a {
+	flex-grow: 1;
 	color: grey;
 	text-decoration: none;
-	margin: 20px 60px;
-
 }
 
 header a:hover {
@@ -89,7 +90,6 @@ header a:hover {
 
 header img {
 	vertical-align: middle;
-
 }
 
 h1 {
