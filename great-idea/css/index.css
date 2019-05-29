@@ -212,4 +212,8 @@ h2 {
 	padding-right: 500px;
 }
 
+.services-header-img {
+	width: 100%;
+}
+
 /* Add Media Query for Mobile Devices */
